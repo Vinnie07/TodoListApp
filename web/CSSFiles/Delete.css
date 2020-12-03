@@ -1,0 +1,38 @@
+.bdy{
+    background-color: lavender;
+}
+.head1{
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 0px;
+    font-size: x-large;
+    font-family: Courier;
+    border: 5px lightblue solid;
+}
+.table4{
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    border-color: darkblue;
+}
+.thead{
+    font-size: 25px;
+    color: crimson;
+    background-color: papayawhip;
+}
+.tbody{
+    color: darkblue;
+    background-color: lightcyan;
+}
+input[type="submit"]{
+    text-decoration: none;
+    font-size: 15px;
+    border: 2px lightblue solid;
+    padding: 5px;
+    color: white;
+    background-color: cornflowerblue;
+    cursor: default;
+}
+input[type="submit"]:hover{color: blue; background-color: lightblue; border: 1px blue solid; transition: all 2s ease;}
+

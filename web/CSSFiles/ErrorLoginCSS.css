@@ -1,0 +1,16 @@
+.head1{
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 0px;
+    font-size: x-large;
+    font-family: Courier;
+    border: 5px lightblue solid;
+}
+.list1{margin-left: -40px; margin-top: -5px;}
+.links{list-style: none; display: inline; padding: 5px;}
+.links a{text-decoration: none; color: blue;}
+body{background-color: lavender;}
+h2{
+    color: red;
+    font-size: 50px;
+}

@@ -1,0 +1,75 @@
+.head1{
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 0px;
+    font-size: x-large;
+    font-family: Courier;
+    border: 5px lightblue solid;
+}
+.head2{
+    margin-top: -20px;
+    background-color: lightblue;
+    color: crimson;
+}
+body{
+    background-color: lavender;
+}
+.list2{
+    margin-left: -40px; 
+    margin-top: -5px;
+}
+.links {
+    list-style: none;
+    padding: 15px;
+}
+.links a{
+    text-decoration: none; 
+    color: crimson;
+    border: 2px solid wheat;
+    font-size: 30px;
+    padding: 5px;
+    background-color: white;
+}
+.links a:hover{
+    color: darkred;
+    background-color: papayawhip;
+    transition: all 2s ease;
+}
+.sidebar{
+    float: left; 
+    text-align: center;
+    width: 200px;
+    height: 500px;
+    margin-left: 10px;
+    border: 1px solid cornflowerblue;
+    box-shadow: 2px 2px 2px cadetblue;
+}
+
+.mainbody{
+    text-align: center;
+    width: 80%;
+    height: 500px;
+    margin-left: 240px;
+    border: 1px solid cornflowerblue;
+    box-shadow: 2px 2px 2px cadetblue;
+}
+.table2{
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    border-color: darkblue;
+}
+.p1{
+    font-size: 30px;
+    color: darkblue;
+}
+.thead{
+    font-size: 25px;
+    color: crimson;
+    background-color: papayawhip;
+}
+.tbody{
+    color: darkblue;
+    background-color: lightcyan;
+}

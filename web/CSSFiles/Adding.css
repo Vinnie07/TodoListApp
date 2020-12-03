@@ -1,0 +1,36 @@
+.bdy{
+    background-color: lavender;
+}
+.head1{
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 0px;
+    font-size: x-large;
+    font-family: Courier;
+    border: 5px lightblue solid;
+}
+.back1{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    color: black;
+}
+.back1:hover{color: darkslateblue;}
+.head4{
+    text-align: center;
+    
+}
+.table3{font-size: 25px; margin-top: 50px;}
+input[type="submit"], input[type="reset"]{
+    text-decoration: none;
+    font-size: 25px;
+    border: 2px lightblue solid;
+    padding: 5px;
+    color: white;
+    background-color: cornflowerblue;
+    cursor: default;
+}
+input[type="submit"]:hover{color: blue; background-color: lightblue; border: 1px blue solid; transition: all 2s ease;}
+input[type="reset"]:hover{color: blue; background-color: lightblue; border: 1px blue solid; transition: all 2s ease;}
+
+

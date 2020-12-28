@@ -8,9 +8,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Error Login Page</title>
         <link rel="stylesheet" href="CSSFiles/ErrorLoginCSS.css">
+        <link rel="stylesheet" href="CSSFiles/FooterCss.css">
     </head>
     <body>
         <h1 class="head1">To Do List Application</h1>
@@ -20,5 +20,9 @@
         </ul>
         
         <h2>ERROR PAGE!!!!!</h2>
+        
+        <div class="footer">
+            <h5 class="head5">To Do List Application</h5>
+        </div>
     </body>
 </html>

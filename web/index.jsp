@@ -11,6 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Welcome Page</title>
         <link rel="stylesheet" href="CSSFiles/indexcss.css">
+        <link rel="stylesheet" href="CSSFiles/FooterCss.css">
     </head>
     <body class="bdy">
         <h1 class="head1">To Do List Application</h1>
@@ -33,6 +34,10 @@
                     <td><a class="btn2" href="register.jsp">Register</a></td>
                 </tr>
             </table>
+        </div>
+        
+        <div class="footer">
+            <h5 class="head5">To Do List Application</h5>
         </div>
     </body>
 </html>

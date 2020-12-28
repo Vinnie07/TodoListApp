@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Dec, 2020, 12:29:52 PM
+    Author     : lenovo
+*/
+.footer{
+    /*margin-top: 500px;*/
+    margin-bottom: 0px;
+    position: fixed;
+    background-color: cornflowerblue;
+    border: 5px lightblue solid;
+    width: 98%;
+    height: 60px;
+}
+.head5{
+    text-align: center;
+    font-family: Courier;
+    color: white;
+    margin-top: 20px;
+    
+}

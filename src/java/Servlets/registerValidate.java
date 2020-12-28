@@ -26,14 +26,11 @@ public class registerValidate extends HttpServlet {
             UsersDAOIMPL usimpl = new UsersDAOIMPL();
 
             boolean b = usimpl.addUser(us);
-            out.println("going in loop");
             if (b) {
-                    out.println("in loop");
-                    out.println("User Added!");
+//                    out.println("User Added!");
                     RequestDispatcher rd = getServletContext().getRequestDispatcher("/NewUser.html");
                     rd.forward(request, response);
             } else {
-                  out.println("Failed!!");
                   RequestDispatcher rd1 = getServletContext().getRequestDispatcher("/register.jsp");
                   rd1.forward(request, response);
             }

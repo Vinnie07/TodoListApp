@@ -39,7 +39,7 @@ body{
     float: left; 
     text-align: center;
     width: 200px;
-    height: 500px;
+    height: 450px;
     margin-left: 10px;
     border: 1px solid cornflowerblue;
     box-shadow: 2px 2px 2px cadetblue;
@@ -48,16 +48,15 @@ body{
 .mainbody{
     text-align: center;
     width: 80%;
-    height: 500px;
+    height: 450px;
     margin-left: 240px;
-    border: 1px solid cornflowerblue;
-    box-shadow: 2px 2px 2px cadetblue;
+    /*border: 1px solid cornflowerblue;*/
+    /*box-shadow: 2px 2px 2px cadetblue;*/
 }
 .table2{
     width: 80%;
-    height: auto;
+    /*height: auto;*/
     margin-bottom: 10px;
-    background-color: white;
     border-color: darkblue;
 }
 .p1{

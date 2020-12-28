@@ -3,7 +3,7 @@
     Created on : 1 Dec, 2020, 11:04:17 AM
     Author     : lenovo
 --%>
-
+<%@page import="javax.servlet.RequestDispatcher"%>
 <%@page import="java.sql.PreparedStatement"%>
 <%@page import="java.sql.Connection"%>
 <%@page import="java.sql.DriverManager"%>
@@ -12,9 +12,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Update Process Page</title>
         <link rel="stylesheet" href="CSSFiles/Update.css">
+        <link rel="stylesheet" href="CSSFiles/FooterCss.css">
     </head>
     <body class="bdy">
         <h1 class="head1">To Do List Application</h1>
@@ -35,10 +35,12 @@
                         ps.setDate(3, (Date) TargetDate);
                         ps.setString(4, status);
                         int i = ps.executeUpdate();
-                        if (i > 0) {  %>
-                        <script type="text/javascript"> alert("List Updated!!");</script>
-                        <a class="back1" href="TODOjsp.jsp">Check the updated list</a>
-                      <%  } else { %>
+                        if (i > 0) {  
+                            RequestDispatcher dispatch = getServletContext().getRequestDispatcher("/TODOjsp.jsp");
+                            dispatch.forward(request, response);
+//                        <!--<script type="text/javascript"> alert("List Updated!!");</script>-->
+//                        <!--<a class="back1" href="TODOjsp.jsp">Check the updated list</a>-->
+                        } else { %>
                             <script type="text/javascript"> alert(" Error while Updating!!");</script>
                             <a class="back1" href="TODOjsp.jsp">Back</a>
                       <%  }
@@ -46,5 +48,9 @@
                         out.println("Error" + e.getMessage());
                     }
             %>
+            
+            <div class="footer" style="margin-top: 460px;">
+                <h5 class="head5">To Do List Application</h5>
+            </div>
     </body>
 </html>

@@ -12,8 +12,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Delete Details Page</title>
+        <link rel="stylesheet" href="CSSFiles/FooterCss.css">
         <link rel="stylesheet" href="CSSFiles/Delete.css">
     </head>
     <body class="bdy">
@@ -55,5 +55,8 @@
                 <input type="submit" value="Delete">
             </p>
         </form>
+            <div class="footer" style="margin-top: 300px;">
+            <h5 class="head5">To Do List Application</h5>
+        </div>
     </body>
 </html>

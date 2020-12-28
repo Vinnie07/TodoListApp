@@ -12,9 +12,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Update Page</title>
         <link rel="stylesheet" href="CSSFiles/Update.css">
+        <link rel="stylesheet" href="CSSFiles/FooterCss.css">
     </head>
     <body class="bdy">
         <h1 class="head1">To Do List Application</h1>
@@ -61,5 +61,9 @@
                     System.out.println("Error!!");
                     } %>
         </form>
+        <br><br><br><br><br><br><br>
+        <div class="footer">
+            <h5 class="head5">To Do List Application</h5>
+        </div>
     </body>
 </html>

@@ -3,6 +3,7 @@
     <head>
         <title>Adding a To Do</title>
         <link rel="stylesheet" href="CSSFiles/Adding.css">
+        <link rel="stylesheet" href="CSSFiles/FooterCss.css">
     </head>
     <body class="bdy">
         <h1 class="head1">To Do List Application</h1>
@@ -11,33 +12,31 @@
         
         <h2 class="head4">Adding a new item:</h2>
         
-        <br>
-        
         <form method="post" action="Adding.jsp">
             <table class="table3" cellspacing="5" cellpadding="5"  align="center">
                 <tr>
                     <td>SR.No: </td>
-                    <td><input type="number" name="srno"></td>
+                    <td><input type="number" name="srno" required></td>
                 </tr>
                 
                 <tr>
                     <td>Title: </td>
-                    <td><input type="text" name="tle"></td>
+                    <td><input type="text" name="tle" required></td>
                 </tr>
                 
                 <tr>
                     <td>Description: </td>
-                    <td><input type="text" name="des"></td>
+                    <td><input type="text" name="des" required></td>
                 </tr>
                 
                 <tr>
                     <td>Target Date: </td>
-                    <td><input type="date" name="tdate"></td>
+                    <td><input type="date" name="tdate" required></td>
                 </tr>
                 
                 <tr>
                     <td>Status: </td>
-                    <td><input type="text" name="stat"></td>
+                    <td><input type="text" name="stat" required></td>
                 </tr>
                 
                 <tr>
@@ -46,5 +45,9 @@
                 </tr>
             </table>
         </form>
+
+        <div class="footer" style="margin-top: 90px;">
+            <h5 class="head5">To Do List Application</h5>
+        </div>
     </body>
 </html>
